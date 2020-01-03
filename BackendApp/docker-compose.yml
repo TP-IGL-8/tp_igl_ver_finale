@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    container_name: Laravel_web
+    build:
+      context: ./Dockerizing_app/app
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/var/www/app

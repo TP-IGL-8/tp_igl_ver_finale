@@ -1,0 +1,2 @@
+[2019-11-25 12:37:35] local.ERROR: SQLSTATE[HY000] [2002] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ (SQL: select * from `etudiants`) null 
